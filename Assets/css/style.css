@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     position: sticky;
     position: -webkit-sticky;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -35,12 +36,18 @@ header nav {
     margin: 20px 0;
 }
 
-header nav ul li {
-    display: inline-block;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    border-bottom: 3px solid;
   }
+
