@@ -1,0 +1,46 @@
+
+/* define color theme */
+:root {
+    --primary-color: rgba(15, 27, 34, 0.884);
+    --secondary-color: yellow;
+    --tertiary-color: rgb(0, 217, 255);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header ? Nave Bar Styles  Start */
+
+header {
+    padding: 20px 30px;
+    background-color: rgba(60, 66, 66, 0.849);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+    color: var(--primary-color);
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin: 20px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
