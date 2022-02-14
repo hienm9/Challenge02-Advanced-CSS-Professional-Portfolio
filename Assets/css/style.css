@@ -11,7 +11,7 @@
   padding: 0;
 }
 
-/* Header ? Nave Bar Styles  Start */
+/* Header Nav Bar Styles  Start */
 
 header {
     padding: 20px 30px;
@@ -24,10 +24,11 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
     margin: 0;
+    font-weight: bold;
     font-size: 40px;
     color: var(--primary-color);
+    background-color: turquoise;
     display: inline;
 }
 
@@ -50,4 +51,27 @@ header nav ul li a {
     font-size: 22px;
     border-bottom: 3px solid;
   }
+
+/* Header style end */
+
+/*Hero section */
+.hero {
+    background-image: url('../images/IMG_4907.PNG');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:right;
+}
+
+.hero-box {
+    margin: 7%;
+    text-align:end;  
+    line-height: 1;
+}
+
+.hero-box h2 {
+    font-size:40px;
+    color: var(--primary-color);
+    background-color: turquoise;
+}
 
