@@ -1,7 +1,7 @@
 
 /* define color theme */
 :root {
-    --primary-color: rgba(15, 27, 34, 0.884);
+    --primary-color: rgba(12, 69, 102, 0.884);
     --secondary-color: yellow;
     --tertiary-color: rgb(0, 217, 255);
 }
@@ -24,7 +24,7 @@ header {
 }
 
 header h1 {
-    margin: 0%;
+    margin: 0;
     font-weight: bold;
     font-size: 40px;
     color: var(--primary-color);
@@ -82,15 +82,32 @@ header nav ul li a {
     color: var(--primary-color);
     border-right: 3px solid;
     padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
     text-align:right;
-    margin: 0 auto 10px auto;
-    width: 50%;
+    margin-top: 7%;
+}
+        /* about me */
+.intro-box p {
+    line-height: 1.7;
+    color: var(--primary-color);
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
   }
-
+        /* work */
+.cards {
+    margin: 20px;
+    background: #024e76;
+    color: #fce138;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* Utilities */
 .flex-row {
     display: flex;
     align-items: flex-start;
-
 }
