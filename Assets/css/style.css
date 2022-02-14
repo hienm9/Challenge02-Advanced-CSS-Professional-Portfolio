@@ -24,12 +24,12 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 0%;
     font-weight: bold;
     font-size: 40px;
     color: var(--primary-color);
     background-color: turquoise;
-    display: inline;
+    display: inline-flex;
 }
 
 header nav {
@@ -64,9 +64,8 @@ header nav ul li a {
 }
 
 .hero-box {
-    margin: 7%;
+    margin-top: 7%;
     text-align:end;  
-    line-height: 1;
 }
 
 .hero-box h2 {
@@ -74,4 +73,24 @@ header nav ul li a {
     color: var(--primary-color);
     background-color: turquoise;
 }
+/* Hero styles end */
 
+/* About me section start */
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 55px;
+    color: var(--primary-color);
+    border-right: 3px solid;
+    padding-bottom: 20px;
+    text-align:right;
+    margin: 0 auto 10px auto;
+    width: 50%;
+  }
+
+
+/* Utilities */
+.flex-row {
+    display: flex;
+    align-items: flex-start;
+
+}
