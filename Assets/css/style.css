@@ -78,7 +78,7 @@ header nav ul li a {
 /* About me section start */
 /* SECTION TITLE STYLES START */
 .section-title {
-    font-size: 55px;
+    font-size: 30px;
     color: var(--primary-color);
     border-right: 3px solid;
     padding-bottom: 20px;
@@ -100,9 +100,9 @@ header nav ul li a {
   }
         /* work */
 .cards {
-    margin: 50px 10px;
-    background: #024e76;
-    color: #fce138;
+    margin: 50px 50px;
+    background: var(--tertiary-color);
+    color:var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     border-style: solid;
@@ -115,20 +115,21 @@ header nav ul li a {
     height: 200px;
 }
 
-.card1 {
+.card1 img{
     width: 80%;
+    width: 400px;
+    height: 200px;
 }
 
 /* contact me section styles */
 .add-info {
-    margin: 50px 10px;
-    background: #024e76;
-    color: #fce138;
+    margin: 50px 50px;
+    padding-top: 50px;
+    color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
-    border-style: solid;
-    border-width: 3px;
-    border-color: turquoise;
+    border-bottom: 3px solid;
+    border-bottom-width: 50%;
 }
 
 /* Utilities */
