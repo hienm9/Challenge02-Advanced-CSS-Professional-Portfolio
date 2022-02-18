@@ -121,8 +121,7 @@ header nav ul li a {
     height: 200px;
 }
 
-.cards .overlay {
-    position: relative;
+.cards {
     top: 20px;
     right: 15px;
     font-weight: bold;
@@ -155,5 +154,5 @@ header nav ul li a {
 /* Utilities */
 .flex-container {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
 }
