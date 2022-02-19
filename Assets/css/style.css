@@ -88,10 +88,11 @@ header nav ul li a {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 200px;
+    height: 250px;
 
 }
 .section-title {
+    background-color: rgb(200, 255, 0);
     display: flex;
     justify-content: right;
     flex: 0%;
@@ -103,110 +104,66 @@ header nav ul li a {
     font-family:fantasy;
     font-weight: bold;
     padding-top: 50px;
-
-    
 }
 
-/* .section-title::after{
-    content: '';
-    height: 100%;
-    width: 5px;
-    background-color: red;
-} */
-        /* about me */
-
 .intro-box  {
-    /* background-color: blue; */
+    background-color: rgb(0, 255, 55);
     padding: 20px;
     flex: 50%;
     height: 100%;
     font-family:fantasy;
-
-    /* line-height: 1.7; */
-    /* color: var(--primary-color); */
-    /* width: 80%; */
-    /* margin-left: 50px; */
-    /* margin-top: 20px; */
-    /* font-size: 20px; */
-    /* text-align: left; */
-  }
-        /* work */
-
-        .card-section{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            height: 500px;
-            width: 500px;
-        }
-
-        .card1 {
-            flex: 100%;
-
-        }
-.cards {
-    flex: 50%;
-    /* margin: 50px 50px; */
-    /*background: var(--tertiary-color); 
-    /*color:var(--primary-color);
-    display: flex;
-    flex-wrap: wrap;
-    border-style: solid;
-    border-width: 3px;
-    border-color: turquoise; */
 }
 
- .cards img {
-    width: 100%;
-    height: 100%;
-} 
-
-
-.card1 img {
-    width: 70%;
-    height: 70%;
-} 
-
-/* .card1 img {
-    width: 80%;
-    width: 400px;
-    height: 200px;
-} */
-/* 
-.cards {
-    top: 20px;
-    right: 15px;
-    font-weight: bold;
-    text-align: right;
-    font-size: 30px;
-    background-color: turquoise;
-}
-*/
-
-.cards .job-title {
-    position: relative;
-    /* top: 20px;
-    right: 15px; */
-    font-weight: bold;
-    text-align: center;
-    background-color: turquoise;
-    color:var(--primary-color)
-} 
-
-/* contact me section styles */
-.add-info {
-    margin: 50px 50px;
-    padding-top: 50px;
-    color: var(--primary-color);
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 3px solid;
-    border-bottom-width: 50%;
-
-}
-
-/* Utilities */
 .flex-container {
     display: flex;
     align-items: flex-end;
 }
+/* about me section ends */
+
+/* set style for the Work container */
+#work {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-top: 20px;
+
+}
+.work-title {
+    background-color: rgb(200, 255, 0);
+    display: flex;
+    justify-content: right;
+    flex: 1;
+    padding: 20px;
+    border-right: 3px solid;
+    height: 100%;
+    color: var(--primary-color);
+    font-size: 25px;
+    font-family:fantasy;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.work-boxright  {
+    background-color: rgb(0, 255, 55);
+    flex: 50%;
+    display: flexbox;
+    height: 100%;
+    font-family:fantasy;
+    border:3px red solid
+}
+
+.small-box {
+    background-image: url('../images/IMG_4907.PNG');
+    height: 200px;
+    border: 3px red solid
+
+}
+.job-title0 {
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+    margin-right:80% ;
+    margin-top: 150px;
+    text-align: center;
+}
+
