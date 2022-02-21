@@ -1,3 +1,15 @@
+Hien's porfolio screen shots:
+
+<img width="1260" alt="Screen Shot 2022-02-20 at 9 03 43 PM" src="https://user-images.githubusercontent.com/98295316/154877571-09da585b-b3a8-473f-80fc-fc27dcf2e5d4.png">
+<img width="1124" alt="Screen Shot 2022-02-20 at 9 04 07 PM" src="https://user-images.githubusercontent.com/98295316/154877605-7cfdc2a4-d6f2-45b4-ae98-649dd127812a.png">
+
+<img width="1098" alt="Screen Shot 2022-02-20 at 9 04 13 PM" src="https://user-images.githubusercontent.com/98295316/154877636-1998f9c0-eb41-44cf-b6b9-dcd834c0c702.png">
+
+<img width="845" alt="Screen Shot 2022-02-20 at 9 02 58 PM" src="https://user-images.githubusercontent.com/98295316/154877667-81aa5e0f-63b3-4ca7-a650-cb1204d3811d.png">
+
+<img width="910" alt="Screen Shot 2022-02-20 at 9 02 32 PM" src="https://user-images.githubusercontent.com/98295316/154877672-7cc925a0-16f8-44a3-8025-9b471877cf5d.png">
+
+
 # 02 Advanced CSS: Portfolio
 
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
