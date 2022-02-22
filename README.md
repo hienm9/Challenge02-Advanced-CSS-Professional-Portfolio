@@ -1,64 +1,26 @@
-Hien's porfolio screen shots:
+# Challenge 02 Advanced CSS: Portfolio
+This is the web page of my porfolio. It was build from scratch using HTML, CSS and there are some image holders for the cards. The main idea of this project is to use CSS with Flex box to wrap content in containers, and have a hover state on the cards. The cards are clickable. Also, use Media query to make the web page responsive to smaller screen sizes such as Surface Pro and Mobile phones. 
 
-<img width="1260" alt="Screen Shot 2022-02-20 at 9 03 43 PM" src="https://user-images.githubusercontent.com/98295316/154877571-09da585b-b3a8-473f-80fc-fc27dcf2e5d4.png">
-<img width="1124" alt="Screen Shot 2022-02-20 at 9 04 07 PM" src="https://user-images.githubusercontent.com/98295316/154877605-7cfdc2a4-d6f2-45b4-ae98-649dd127812a.png">
+At the top of the page contains a header:
+    My name on the top left.
+    Four links on the right with bottem border
+        AboutMe - click will take user to the About Me section on the page
+        Work - click will take user to the Work section on the page
+        Contact Me - click will take user to the Contact Me section at the bottom
+        Resume - click will take user to my Linkedin profile
 
-<img width="1098" alt="Screen Shot 2022-02-20 at 9 04 13 PM" src="https://user-images.githubusercontent.com/98295316/154877636-1998f9c0-eb41-44cf-b6b9-dcd834c0c702.png">
+The second section below contains a hero image with a subtitle on the bottom right
+Below are the body sections. 
+    On each section I made a container on the left and a container on the right.
+    The left contains displays the section title.
+    The right container displays the detail information about the section.
+        About Me section - only has information text 
+        Work section - There are sub-containers that are clickable. 
+                    - The first container or the first child container displays on the whole row.
+                    - The rest 4 containers are displayed with two in one row.
+                    - There is small box in each card show a title with description of the job.
+                    - The cards are clickable. I only have a holder link (href="#") at the moment. This will be added in the future.
+                    - The cards have a blue border displays on the card when user them
 
-<img width="845" alt="Screen Shot 2022-02-20 at 9 02 58 PM" src="https://user-images.githubusercontent.com/98295316/154877667-81aa5e0f-63b3-4ca7-a650-cb1204d3811d.png">
+Last section which is Contact me. All items on the right container phone, email, github, twitter, spotify are clickable and have a bottom border.
 
-<img width="910" alt="Screen Shot 2022-02-20 at 9 02 32 PM" src="https://user-images.githubusercontent.com/98295316/154877672-7cc925a0-16f8-44a3-8025-9b471877cf5d.png">
-
-
-# 02 Advanced CSS: Portfolio
-
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: at many companies, having several deployed projects is a minimum requirement to receive an initial interview. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note**: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s look at what a user story written from the perspective of a hiring manager might look like. As you might remember, we follow the AS AN / I WANT / SO THAT format.
-
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
