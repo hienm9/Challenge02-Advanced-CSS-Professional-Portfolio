@@ -1,0 +1,312 @@
+
+/* define color theme */
+:root {
+    --primary-color: rgba(12, 69, 102, 0.884);
+    --secondary-color: yellow;
+    --tertiary-color: rgba(0, 255, 213, 0.685);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Header Nav Bar Styles  Start */
+
+header {
+    padding: 20px 30px;
+    background-image: radial-gradient(circle, black, darkgrey);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    flex-wrap: wrap;  
+
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--tertiary-color);
+    display: inline-flex;
+    font-family: fantasy;
+}
+
+header nav {
+    float: right;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    color: var(--tertiary-color);
+    font-family: fantasy;
+  }
+
+/* Header style end */
+
+/*Hero section */
+.hero {
+    background-image: url('../images/IMG_4765.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:right;
+}
+
+.hero-box {
+    margin-top: 7%;
+    text-align:end;  
+}
+
+.hero-box h2 {
+    font-size:40px;
+    font-family: fantasy;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+/* Hero styles end */
+
+/* About me section start */
+#about-me {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+    /* set styles for the titles on the left containers */
+.section-title {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    color: var(--primary-color);
+    font-size: 25px;
+    font-family:fantasy;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 50px;
+    padding: 20px;
+}
+.aboutMe-title, .intro-box {
+    min-height: 150px;
+}
+      /* style for the about me right section */
+.intro-box  {
+    padding: 20px;
+    flex: 50%;
+    font-family:fantasy;
+    border-left: 3px solid var(--primary-color);
+}
+/* about me section ends */
+
+/* set style for the Work container */
+#work {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.work-title, .work-boxright{
+    min-height: 400px;
+}
+        /* style for the "work" boxes on the right container */
+.work-boxright  {
+    flex: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family:fantasy;
+    border-left: 3px solid var(--primary-color);
+}
+       
+.small-box {
+    min-height: 200px;
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    border: 5px solid var(--tertiary-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.small-box:hover {
+ border-color:  rgb(0, 47, 255);
+}
+      /* style for the text inside the work boxes */
+.job-title {
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+    position:relative;
+    text-align: center;
+    height: 50px;
+    margin-top: 120px;
+}
+
+.job-title1 {
+    margin-top: 120px;
+}
+
+.small-box2 {
+    display: flex;
+    width: 44%;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 5px solid var(--tertiary-color);
+
+} 
+
+.small-box2:hover {
+    border-color:  rgb(0, 47, 255);
+}
+
+#image-1 {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+}
+
+#image-2 {
+    background-image: url('../images/testing.jpeg'); 
+}
+
+#image-3 {
+    background-image: url('../images/cooking_image_612x612.jpeg'); 
+}
+
+#image-4 {
+    background-image: url('../images/IMG_4920.JPG'); 
+    background-size: cover;
+}
+
+#image-5 {
+    background-image: url('../images/testing-3.jpeg'); 
+}
+
+/* contact me section styles */
+#contact-me {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-title, .contact-boxright{
+    min-height: 80px;
+    padding-top: 20px;
+}
+
+.contact-boxright  {
+    flex: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:fantasy;
+    border-left: 3px solid var(--primary-color);
+}
+
+.contact-boxright nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-boxright  nav ul li a {
+    margin: 0 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    color: var(--primary-color);
+  }
+
+/* utilities */
+.flex-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* MEDIA QUERY FOR Mobile phones and smaller */
+@media screen and (max-width: 575px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      text-align: center;
+      font-size: 30px;
+    }
+  
+    header nav ul {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 18px;
+    }
+  
+    .hero {
+      width: 100%;
+    }
+    
+    .hero-box {
+      text-align: center;
+    }
+    .hero-box h2 {
+      font-size: 30px;
+    }
+  
+    .section-title {
+      width: 80%;
+      font-size: 20px;
+    }
+
+    .small-box {
+        min-height: 50px;
+    }
+    .small-box2 {
+        height: 100px;
+        width: 41%;
+    }
+    
+    .job-title {
+        height: 30px;
+        font-size: 10px;
+        margin-top: 40px;
+    }
+
+    .job-title1 {
+        padding-left: 5px;
+    }
+
+    .contact-boxright nav ul li {
+       padding-bottom: 10px;
+    }
+}
