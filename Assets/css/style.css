@@ -21,7 +21,9 @@ header {
     justify-content: space-between;
     position: sticky;
     position: -webkit-sticky;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+
+    
 }
 
 header h1 {
