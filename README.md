@@ -24,3 +24,15 @@ Below are the body sections.
 
 Last section which is Contact me. All items on the right container phone, email, github, twitter, spotify are clickable and have a bottom border.
 
+Screen shots:
+Full screen
+<img width="1260" alt="Screen Shot 2022-02-20 at 9 03 43 PM" src="https://user-images.githubusercontent.com/98295316/155857862-8b2bec6c-c874-46a8-acb7-613b95ced0a2.png">
+<img width="1124" alt="Screen Shot 2022-02-20 at 9 04 07 PM" src="https://user-images.githubusercontent.com/98295316/155857872-5d052668-f860-4f03-b6d8-d90326b1d6d3.png">
+<img width="1098" alt="Screen Shot 2022-02-20 at 9 04 13 PM" src="https://user-images.githubusercontent.com/98295316/155857878-c0205986-e755-43fb-9238-f941be2070d8.png">
+
+
+Surface Pro
+<img width="845" alt="Screen Shot 2022-02-20 at 9 02 58 PM" src="https://user-images.githubusercontent.com/98295316/155857891-592e6be3-c7af-4186-8753-f1f2209418df.png">
+
+Mobile
+<img width="910" alt="Challenge02-Mobile" src="https://user-images.githubusercontent.com/98295316/155857934-c48c4fd9-d514-4181-b6ce-a58da107aa24.png">
